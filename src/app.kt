@@ -15,4 +15,20 @@ fun main(args: Array<String>) {
     println(varMessage)
     varMessage = "second var Message"
     println(varMessage)
+
+    // 基本データ型
+    // String, Char
+    val message: String = "Hi"
+    val c: Char = 'c'
+
+    // Byte, Short, Int, Long
+    val i: Int = 1000
+    val l: Long = 999999L
+
+    // Float, Double
+    val d: Double = 123.456
+    val f: Float = 33.333F
+
+    // Boolean
+    val flag: Boolean = true
 }
