@@ -31,4 +31,16 @@ fun main(args: Array<String>) {
 
     // Boolean
     val flag: Boolean = true
+
+    // 変数展開
+    val name = "su-kun1899"
+    println("Hello, $name!")
+
+    // 式展開
+    println("My score is ${12 + 34}.")
+
+    // ifは値を返せる
+    val score = 60
+    val resultMessage = if (score > 70) "Great!" else "Don't mind."
+    println(resultMessage)
 }
